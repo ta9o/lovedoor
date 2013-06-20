@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F630A4C17736CA1008AAF29 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F630A4B17736CA1008AAF29 /* CoreBluetooth.framework */; };
+		8F630A5117736CB2008AAF29 /* Konashi.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F630A4F17736CB2008AAF29 /* Konashi.m */; };
 		8FEB35F817736B2F00F7D234 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEB35F717736B2F00F7D234 /* UIKit.framework */; };
 		8FEB35FA17736B2F00F7D234 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEB35F917736B2F00F7D234 /* Foundation.framework */; };
 		8FEB35FC17736B2F00F7D234 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEB35FB17736B2F00F7D234 /* CoreGraphics.framework */; };
@@ -37,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F630A4B17736CA1008AAF29 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		8F630A4E17736CB2008AAF29 /* Konashi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Konashi.h; path = Konashi/Konashi.h; sourceTree = "<group>"; };
+		8F630A4F17736CB2008AAF29 /* Konashi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Konashi.m; path = Konashi/Konashi.m; sourceTree = "<group>"; };
+		8F630A5017736CB2008AAF29 /* KonashiDb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KonashiDb.h; path = Konashi/KonashiDb.h; sourceTree = "<group>"; };
 		8FEB35F417736B2F00F7D234 /* LoveDoor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveDoor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FEB35F717736B2F00F7D234 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8FEB35F917736B2F00F7D234 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -67,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F630A4C17736CA1008AAF29 /* CoreBluetooth.framework in Frameworks */,
 				8FEB35F817736B2F00F7D234 /* UIKit.framework in Frameworks */,
 				8FEB35FA17736B2F00F7D234 /* Foundation.framework in Frameworks */,
 				8FEB35FC17736B2F00F7D234 /* CoreGraphics.framework in Frameworks */,
@@ -86,9 +93,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F630A4D17736CA7008AAF29 /* Konashi */ = {
+			isa = PBXGroup;
+			children = (
+				8F630A4E17736CB2008AAF29 /* Konashi.h */,
+				8F630A4F17736CB2008AAF29 /* Konashi.m */,
+				8F630A5017736CB2008AAF29 /* KonashiDb.h */,
+			);
+			name = Konashi;
+			sourceTree = "<group>";
+		};
 		8FEB35EB17736B2F00F7D234 = {
 			isa = PBXGroup;
 			children = (
+				8F630A4B17736CA1008AAF29 /* CoreBluetooth.framework */,
 				8FEB35FD17736B2F00F7D234 /* LoveDoor */,
 				8FEB362417736B2F00F7D234 /* LoveDoorTests */,
 				8FEB35F617736B2F00F7D234 /* Frameworks */,
@@ -119,6 +137,7 @@
 		8FEB35FD17736B2F00F7D234 /* LoveDoor */ = {
 			isa = PBXGroup;
 			children = (
+				8F630A4D17736CA7008AAF29 /* Konashi */,
 				8FEB360617736B2F00F7D234 /* AppDelegate.h */,
 				8FEB360717736B2F00F7D234 /* AppDelegate.m */,
 				8FEB360F17736B2F00F7D234 /* ViewController.h */,
@@ -277,6 +296,7 @@
 				8FEB360417736B2F00F7D234 /* main.m in Sources */,
 				8FEB360817736B2F00F7D234 /* AppDelegate.m in Sources */,
 				8FEB361117736B2F00F7D234 /* ViewController.m in Sources */,
+				8F630A5117736CB2008AAF29 /* Konashi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +487,7 @@
 				8FEB363117736B2F00F7D234 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FEB363217736B2F00F7D234 /* Build configuration list for PBXNativeTarget "LoveDoorTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +496,7 @@
 				8FEB363417736B2F00F7D234 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
