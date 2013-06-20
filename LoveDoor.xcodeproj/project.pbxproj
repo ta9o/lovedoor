@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FEB35F817736B2F00F7D234 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEB35F717736B2F00F7D234 /* UIKit.framework */; };
+		8FEB35FA17736B2F00F7D234 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEB35F917736B2F00F7D234 /* Foundation.framework */; };
+		8FEB35FC17736B2F00F7D234 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEB35FB17736B2F00F7D234 /* CoreGraphics.framework */; };
+		8FEB360217736B2F00F7D234 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8FEB360017736B2F00F7D234 /* InfoPlist.strings */; };
+		8FEB360417736B2F00F7D234 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FEB360317736B2F00F7D234 /* main.m */; };
+		8FEB360817736B2F00F7D234 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FEB360717736B2F00F7D234 /* AppDelegate.m */; };
+		8FEB360A17736B2F00F7D234 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FEB360917736B2F00F7D234 /* Default.png */; };
+		8FEB360C17736B2F00F7D234 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FEB360B17736B2F00F7D234 /* Default@2x.png */; };
+		8FEB360E17736B2F00F7D234 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FEB360D17736B2F00F7D234 /* Default-568h@2x.png */; };
+		8FEB361117736B2F00F7D234 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FEB361017736B2F00F7D234 /* ViewController.m */; };
+		8FEB361417736B2F00F7D234 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FEB361217736B2F00F7D234 /* ViewController_iPhone.xib */; };
+		8FEB361717736B2F00F7D234 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FEB361517736B2F00F7D234 /* ViewController_iPad.xib */; };
+		8FEB361F17736B2F00F7D234 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEB361E17736B2F00F7D234 /* SenTestingKit.framework */; };
+		8FEB362017736B2F00F7D234 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEB35F717736B2F00F7D234 /* UIKit.framework */; };
+		8FEB362117736B2F00F7D234 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEB35F917736B2F00F7D234 /* Foundation.framework */; };
+		8FEB362917736B2F00F7D234 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8FEB362717736B2F00F7D234 /* InfoPlist.strings */; };
+		8FEB362C17736B2F00F7D234 /* LoveDoorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FEB362B17736B2F00F7D234 /* LoveDoorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FEB362217736B2F00F7D234 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FEB35EC17736B2F00F7D234 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FEB35F317736B2F00F7D234;
+			remoteInfo = LoveDoor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8FEB35F417736B2F00F7D234 /* LoveDoor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveDoor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FEB35F717736B2F00F7D234 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8FEB35F917736B2F00F7D234 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8FEB35FB17736B2F00F7D234 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8FEB35FF17736B2F00F7D234 /* LoveDoor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoveDoor-Info.plist"; sourceTree = "<group>"; };
+		8FEB360117736B2F00F7D234 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8FEB360317736B2F00F7D234 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8FEB360517736B2F00F7D234 /* LoveDoor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoveDoor-Prefix.pch"; sourceTree = "<group>"; };
+		8FEB360617736B2F00F7D234 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8FEB360717736B2F00F7D234 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8FEB360917736B2F00F7D234 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8FEB360B17736B2F00F7D234 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8FEB360D17736B2F00F7D234 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8FEB360F17736B2F00F7D234 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8FEB361017736B2F00F7D234 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8FEB361317736B2F00F7D234 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		8FEB361617736B2F00F7D234 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		8FEB361D17736B2F00F7D234 /* LoveDoorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveDoorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FEB361E17736B2F00F7D234 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8FEB362617736B2F00F7D234 /* LoveDoorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoveDoorTests-Info.plist"; sourceTree = "<group>"; };
+		8FEB362817736B2F00F7D234 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8FEB362A17736B2F00F7D234 /* LoveDoorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoveDoorTests.h; sourceTree = "<group>"; };
+		8FEB362B17736B2F00F7D234 /* LoveDoorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoveDoorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FEB35F117736B2F00F7D234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FEB35F817736B2F00F7D234 /* UIKit.framework in Frameworks */,
+				8FEB35FA17736B2F00F7D234 /* Foundation.framework in Frameworks */,
+				8FEB35FC17736B2F00F7D234 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FEB361917736B2F00F7D234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FEB361F17736B2F00F7D234 /* SenTestingKit.framework in Frameworks */,
+				8FEB362017736B2F00F7D234 /* UIKit.framework in Frameworks */,
+				8FEB362117736B2F00F7D234 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FEB35EB17736B2F00F7D234 = {
+			isa = PBXGroup;
+			children = (
+				8FEB35FD17736B2F00F7D234 /* LoveDoor */,
+				8FEB362417736B2F00F7D234 /* LoveDoorTests */,
+				8FEB35F617736B2F00F7D234 /* Frameworks */,
+				8FEB35F517736B2F00F7D234 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FEB35F517736B2F00F7D234 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FEB35F417736B2F00F7D234 /* LoveDoor.app */,
+				8FEB361D17736B2F00F7D234 /* LoveDoorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FEB35F617736B2F00F7D234 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FEB35F717736B2F00F7D234 /* UIKit.framework */,
+				8FEB35F917736B2F00F7D234 /* Foundation.framework */,
+				8FEB35FB17736B2F00F7D234 /* CoreGraphics.framework */,
+				8FEB361E17736B2F00F7D234 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FEB35FD17736B2F00F7D234 /* LoveDoor */ = {
+			isa = PBXGroup;
+			children = (
+				8FEB360617736B2F00F7D234 /* AppDelegate.h */,
+				8FEB360717736B2F00F7D234 /* AppDelegate.m */,
+				8FEB360F17736B2F00F7D234 /* ViewController.h */,
+				8FEB361017736B2F00F7D234 /* ViewController.m */,
+				8FEB361217736B2F00F7D234 /* ViewController_iPhone.xib */,
+				8FEB361517736B2F00F7D234 /* ViewController_iPad.xib */,
+				8FEB35FE17736B2F00F7D234 /* Supporting Files */,
+			);
+			path = LoveDoor;
+			sourceTree = "<group>";
+		};
+		8FEB35FE17736B2F00F7D234 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FEB35FF17736B2F00F7D234 /* LoveDoor-Info.plist */,
+				8FEB360017736B2F00F7D234 /* InfoPlist.strings */,
+				8FEB360317736B2F00F7D234 /* main.m */,
+				8FEB360517736B2F00F7D234 /* LoveDoor-Prefix.pch */,
+				8FEB360917736B2F00F7D234 /* Default.png */,
+				8FEB360B17736B2F00F7D234 /* Default@2x.png */,
+				8FEB360D17736B2F00F7D234 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8FEB362417736B2F00F7D234 /* LoveDoorTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FEB362A17736B2F00F7D234 /* LoveDoorTests.h */,
+				8FEB362B17736B2F00F7D234 /* LoveDoorTests.m */,
+				8FEB362517736B2F00F7D234 /* Supporting Files */,
+			);
+			path = LoveDoorTests;
+			sourceTree = "<group>";
+		};
+		8FEB362517736B2F00F7D234 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FEB362617736B2F00F7D234 /* LoveDoorTests-Info.plist */,
+				8FEB362717736B2F00F7D234 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FEB35F317736B2F00F7D234 /* LoveDoor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FEB362F17736B2F00F7D234 /* Build configuration list for PBXNativeTarget "LoveDoor" */;
+			buildPhases = (
+				8FEB35F017736B2F00F7D234 /* Sources */,
+				8FEB35F117736B2F00F7D234 /* Frameworks */,
+				8FEB35F217736B2F00F7D234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoveDoor;
+			productName = LoveDoor;
+			productReference = 8FEB35F417736B2F00F7D234 /* LoveDoor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FEB361C17736B2F00F7D234 /* LoveDoorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FEB363217736B2F00F7D234 /* Build configuration list for PBXNativeTarget "LoveDoorTests" */;
+			buildPhases = (
+				8FEB361817736B2F00F7D234 /* Sources */,
+				8FEB361917736B2F00F7D234 /* Frameworks */,
+				8FEB361A17736B2F00F7D234 /* Resources */,
+				8FEB361B17736B2F00F7D234 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FEB362317736B2F00F7D234 /* PBXTargetDependency */,
+			);
+			name = LoveDoorTests;
+			productName = LoveDoorTests;
+			productReference = 8FEB361D17736B2F00F7D234 /* LoveDoorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FEB35EC17736B2F00F7D234 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Takuo IMBE";
+			};
+			buildConfigurationList = 8FEB35EF17736B2F00F7D234 /* Build configuration list for PBXProject "LoveDoor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8FEB35EB17736B2F00F7D234;
+			productRefGroup = 8FEB35F517736B2F00F7D234 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FEB35F317736B2F00F7D234 /* LoveDoor */,
+				8FEB361C17736B2F00F7D234 /* LoveDoorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FEB35F217736B2F00F7D234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FEB360217736B2F00F7D234 /* InfoPlist.strings in Resources */,
+				8FEB360A17736B2F00F7D234 /* Default.png in Resources */,
+				8FEB360C17736B2F00F7D234 /* Default@2x.png in Resources */,
+				8FEB360E17736B2F00F7D234 /* Default-568h@2x.png in Resources */,
+				8FEB361417736B2F00F7D234 /* ViewController_iPhone.xib in Resources */,
+				8FEB361717736B2F00F7D234 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FEB361A17736B2F00F7D234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FEB362917736B2F00F7D234 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8FEB361B17736B2F00F7D234 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FEB35F017736B2F00F7D234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FEB360417736B2F00F7D234 /* main.m in Sources */,
+				8FEB360817736B2F00F7D234 /* AppDelegate.m in Sources */,
+				8FEB361117736B2F00F7D234 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FEB361817736B2F00F7D234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FEB362C17736B2F00F7D234 /* LoveDoorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FEB362317736B2F00F7D234 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FEB35F317736B2F00F7D234 /* LoveDoor */;
+			targetProxy = 8FEB362217736B2F00F7D234 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8FEB360017736B2F00F7D234 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FEB360117736B2F00F7D234 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8FEB361217736B2F00F7D234 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FEB361317736B2F00F7D234 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		8FEB361517736B2F00F7D234 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FEB361617736B2F00F7D234 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		8FEB362717736B2F00F7D234 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FEB362817736B2F00F7D234 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FEB362D17736B2F00F7D234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FEB362E17736B2F00F7D234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FEB363017736B2F00F7D234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LoveDoor/LoveDoor-Prefix.pch";
+				INFOPLIST_FILE = "LoveDoor/LoveDoor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8FEB363117736B2F00F7D234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LoveDoor/LoveDoor-Prefix.pch";
+				INFOPLIST_FILE = "LoveDoor/LoveDoor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8FEB363317736B2F00F7D234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LoveDoor.app/LoveDoor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LoveDoor/LoveDoor-Prefix.pch";
+				INFOPLIST_FILE = "LoveDoorTests/LoveDoorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8FEB363417736B2F00F7D234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LoveDoor.app/LoveDoor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LoveDoor/LoveDoor-Prefix.pch";
+				INFOPLIST_FILE = "LoveDoorTests/LoveDoorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FEB35EF17736B2F00F7D234 /* Build configuration list for PBXProject "LoveDoor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FEB362D17736B2F00F7D234 /* Debug */,
+				8FEB362E17736B2F00F7D234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FEB362F17736B2F00F7D234 /* Build configuration list for PBXNativeTarget "LoveDoor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FEB363017736B2F00F7D234 /* Debug */,
+				8FEB363117736B2F00F7D234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8FEB363217736B2F00F7D234 /* Build configuration list for PBXNativeTarget "LoveDoorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FEB363317736B2F00F7D234 /* Debug */,
+				8FEB363417736B2F00F7D234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FEB35EC17736B2F00F7D234 /* Project object */;
+}
